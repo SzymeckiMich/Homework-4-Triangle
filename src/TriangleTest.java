@@ -1,11 +1,13 @@
 public class TriangleTest {
     public static void main(String[] args) {
 
-        Triangle triangle = new Triangle(-3, -100, 5);
+        Triangle triangle = new Triangle(3, 100, 0);
+        Right right = new Right();
+
 
 
         if (triangle.isThisTriangle(triangle)) {
-            if (triangle.isRightTriangle(triangle)) {
+            if (right.isRightTriangle(triangle)) {
                 System.out.println("It is a right triangle");
             } else {
                 System.out.println("It isn't a right triangle");

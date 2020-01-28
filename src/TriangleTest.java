@@ -1,7 +1,7 @@
 public class TriangleTest {
     public static void main(String[] args) {
 
-        Triangle triangle = new Triangle(3, 100, 0);
+        Triangle triangle = new Triangle(3, 4, 5);
         Right right = new Right();
 
 
